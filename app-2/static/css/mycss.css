@@ -1,0 +1,15 @@
+.button {
+  background-color:blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {font-size: 16px;}
+
+/* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: 0p3_th3 */

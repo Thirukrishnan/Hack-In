@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Injection</title>
+    <style>
+.button {
+  background-color:blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {font-size: 16px;}
+
+</style>
+</head>
+
+<body style="background-color:#cc9900;">
+    <center><h1><p>Login If You Can</p></h1></center>
+    <h2><p>If you don't have the credentials maybe you can try this</p></h2><a href="hello?name=Loser">endpoint</a><p><h2>for a loser welcome page</p></h2>
+    <form class="form-login" action="/login" method="post">
+      <center><label for="inputName" class="sr-only"></label><br>
+      <input type="name" name="username" id="inputName" class="form-control" placeholder="Username" size=30 required autofocus><br>
+      <label for="inputPassword" class="sr-only"></label>
+      <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" size=30 required><br>
+      <button id="btnSignUp" class="button button1 onclick = 'this.form.submit();' type="button" size="100">Login</button></center>
+    </form>
+<center><img src="static/vault.gif" alt="Vault" width="1000" height=600></center>
+<img src="loser.jpg" alt="Loser Image" width="1000" height="600">
+
+</div>
+</body>
+
+</html>
